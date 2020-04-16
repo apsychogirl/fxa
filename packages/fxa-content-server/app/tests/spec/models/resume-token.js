@@ -17,7 +17,6 @@ const TOKEN_OBJ = {
   entrypointVariation: 'entrypoint-experiment',
   flowBegin: Date.now(),
   flowId: 'a-big-flow-id',
-  needsOptedInToMarketingEmail: true,
   newsletters: ['knowledge-is-power'],
   planId: 'wibble',
   productId: 'blee',
