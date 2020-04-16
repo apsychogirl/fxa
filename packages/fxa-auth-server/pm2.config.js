@@ -6,7 +6,7 @@ module.exports = {
   apps: [
     {
       name: 'auth',
-      script: './bin/key_server.js',
+      script: 'ts-node -P tsconfig.json ./bin/key_server.js',
       cwd: __dirname,
       env: {
         DB: 'mysql',
