@@ -89,6 +89,11 @@ function makeApp() {
         writeToDisk: true,
       })
     );
+    const { createProxyMiddleware } = require('http-proxy-middleware');
+    app.use(
+      '/beta/settings',
+      createProxyMiddleware({ target: 'http://localhost:3000', ws: true })
+    );
   }
 
   app.engine('html', consolidate.handlebars);

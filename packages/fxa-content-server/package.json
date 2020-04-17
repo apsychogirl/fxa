@@ -149,6 +149,7 @@
         "grunt-sass-lint": "0.2.0",
         "grunt-todo": "0.5.0",
         "htmlparser2": "3.9.0",
+        "http-proxy-middleware": "^1.0.3",
         "install": "0.12.1",
         "intern": "^4.5.0",
         "jsqr": "1.2.0",
